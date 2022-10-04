@@ -66,6 +66,10 @@ padding-top: 15px;
     font-size: 12px;
     margin: 0;
 }
+.section-description {
+margin-bottom: 20px;
+}
+
 .section-description__icon-box {
 text-align: center;
 margin-bottom: 20px;
@@ -90,17 +94,43 @@ margin-right: 76px;
 .section-description__icon-box img:last-child {
     margin-right: 0px;
     }
-    .header-1 {
+    .section-description__title {
         font-size: 96px;
         text-align: center;
         margin: 0;
     }
-.word {
+.red {
     color: #F15B40;
 }
-.section-prefooter__text {
+.section-description__text {
     font-size: 18px;
     margin: 0;
     text-align: center;
+    width: 1000px;
+    margin: 0 auto;
     
 }
+.section-map {
+    margin-bottom: 20px;
+}
+.section-map__title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+ hr {
+    border: none;
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+ }
+
+ footer {
+    height: 80px;
+ }
